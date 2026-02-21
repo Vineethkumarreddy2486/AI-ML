@@ -150,6 +150,8 @@ comparison = pd.DataFrame({
 })
 print(comparison)
 
+
+# saving the model
 joblib.dump(rf_model, "california_rf_model.p1")
 print(" model saved successfully")
 
